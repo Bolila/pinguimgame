@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<script type="text/javascript" src="funcoes.js"></script>
+<link rel="stylesheet" type="text/css" href="estilos.css" />
+
+</head>
+<body onkeydown="Key(event)">
+
+<div id="scroller">   <div id="character">
+   </div> </div>
+<button onclick="moveB()">Baixo</button> 
+<button onclick="moveD()">Direita</button>
+<button onclick="moveC()">Cima</button> 
+<button onclick="moveE()">Esquerda</button> 
+<button onclick="stop()">Parar</button> 
+
+<div id="pos"></div>
+<div id="score">0</div>
+<div id="txtOver" class="txtOver">
+	<b> Foi apanhado! </br>
+	<b> Prime F5 para recomeçar. </b>
+</div>
+<div id="txtWin" class="txtWin">
+	<b> Parabéns! </br>
+	<b> Extinguiu os Humanos e salvou o planeta Terra! </br>
+	<b> Prime F5 para recomeçar. </b>
+</div>
+<div id="sinopse">
+	<b> Sinopse: </br>
+	<strong> Está a controlar um pinguim que perdeu a família devido ao aquecimento global! </br>
+	<strong> Faça a sua vingança e destrua os 8 estabelecimentos dos humanos, dirigindo-se à entrada de cada estabelecimento! </br>
+	<strong> Cuidado com os soldados, se se aproximar muito, será apanhado. </br>
+	<strong> Dica: Sendo um animal anfíbio, utilize a água para sua vantagem. </strong>
+</div>
+<div id="controls">
+	<b> Controlos: </br>
+	<strong> Para mexer a personagem, utilize as setas do teclado e espaço para parar o pinguim, </br>
+	<strong> pode também utilizar os botões abaixo do jogo. </br>
+	<strong> O número de estabelecimentos que destruiu encontra-se abaixo dos botões. </strong>
+</div>
+
+<audio autoplay="true" src="Tetris.mp3">
+<audio id="castelo" src="bomba.mp3" ></a>
+<audio id="over" src="tiro.mp3" ></a>
+<audio id="vict" src="vict.mp3" ></a>
+</body>
+</html>
